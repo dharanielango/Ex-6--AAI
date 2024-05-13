@@ -3,9 +3,10 @@
 <H3>EX. NO.6</H3>
 <H3>DATE:13/05/2024</H3>
 <H1 ALIGN =CENTER>Implementation of Semantic ANalysis</H1>
-<H3>Aim: to perform Parts of speech identification and Synonym using Natural Language Processing (NLP) techniques. </H3> 
- <BR>
-<h3>Algorithm:</h3>
+## Aim: 
+To perform Parts of speech identification and Synonym using Natural Language Processing (NLP) techniques. 
+
+## Algorithm:
 Step 1: Import the nltk library.<br>
 Step 2: Download the 'punkt', 'wordnet', and 'averaged_perceptron_tagger' resources.<br>
 Step 3:Accept user input for the text.<br>
@@ -16,7 +17,7 @@ Step 5:Iterate through each word in the tokenized text.<br>
 •	For each verb , iterate through its synsets (sets of synonyms) using wordnet.synsets(word).<br>
 •	Extract synonyms and antonyms using lemma.name() and lemma.antonyms()[0].name() respectively.<br>
 •	Print the unique sets of synonyms and antonyms.
-<H3>Program:</H3>
+## Program:
 ```
 !pip install nltk
 
@@ -77,12 +78,12 @@ for sentence in sentences:
   i+=1
 ```
 
-<H3>Output</H3>
+## Output
 ### Words and the respective POS-Tags
 ![image](https://github.com/dharanielango/Ex-6--AAI/assets/94530523/369ef94b-a854-448a-86b7-55a6047b93d7)
 ### Synonyms and Antonyms for verbs in each sentence
 ![image](https://github.com/dharanielango/Ex-6--AAI/assets/94530523/2991011b-0109-43a4-85e5-8e242478c82f)
 
 
-<H3>Result:</H3>
+## Result:
 Thus ,the program to perform the Parts of Speech identification and Synonymis executed sucessfully.

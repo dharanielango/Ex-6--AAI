@@ -2,7 +2,7 @@
 <H3>212221230021.</H3>
 <H3>EX. NO.6</H3>
 <H3>DATE:13/05/2024</H3>
-<H1 ALIGN =CENTER>Implementation of Semantic ANalysis</H1>
+# Implementation of Semantic Analysis
 ## Aim: 
 To perform Parts of speech identification and Synonym using Natural Language Processing (NLP) techniques. 
 
